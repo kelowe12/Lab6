@@ -1,0 +1,17 @@
+.background    { background: rgb(187, 255, 127);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.poison        { background: rgb(203, 120, 226); }
+.wall          { background: rgb(181, 136, 12);   }
+.floater       { background: rgb(33, 107, 27); }
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
